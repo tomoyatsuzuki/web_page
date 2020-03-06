@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdn2.hubspot.net/hubfs/6706166/Stock/self.jpeg);
+  background-size: cover;
+  color:white;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+ opacity: 0.7;
+ font-size: 30px;
+  text-align: center;
+}
+
+/* btnクラスのCSSを指定してください */
+.btn {
+  padding: 8px 24px;
+  color: white;
+   display: inline-block;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+/* signupクラスのCSSを指定してください */
+.signup {
+  background-color: #239b76;
+}
+
+/* facebookクラスのCSSを指定してください */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* twitterクラスのCSSを指定してください */
+.twitter {
+  background-color: #55acee;
+}
+
+/* btn-wrapperクラスのCSSを指定してください */
+.btn-wrapper {
+  margin: 30px 0;
+}
+
+/* btn-wrapperクラスの中にある<p>のCSSを指定してください */
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+/* faクラスのmargin-rightを5pxに指定してください */
+.fa {
+  margin-right: 5px;
+}
